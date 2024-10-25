@@ -1,0 +1,9 @@
+# environment 
+.env
+
+# dependency 
+node_modules/
+
+# 忽略日志文件
+logs/
+*.log
