@@ -15,7 +15,7 @@ app.use(express.json()) // to parse the income request with json payload(from re
 app.use(cookieParser())// in order to get the cookie 
 
 app.use('/api/auth', authRoutes)
-app.use('/api/message',messageRoutes)
+app.use('/api/messages',messageRoutes)
 app.use('/api/users',userRoutes)
 
 app.listen(port, () => {
